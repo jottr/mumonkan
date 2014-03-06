@@ -73,18 +73,18 @@
       options.threads = true
 
       # Image extensions to attempt to compress
-      options.image_extensions = %w(.png .jpg .gif .svg)
+      options.image_extensions = %w(.jpg .gif .svg) #%w(.png .jpg .gif .svg)
 
       # compressor worker options, individual optimisers can be disabled by passing
       # false instead of a hash
       options.pngcrush_options  = {:chunks => ['alla'], :fix => false, :brute => false}
-      options.pngout_options    = {:copy_chunks => false, :strategy => 0}
+      #options.pngout_options    = {:copy_chunks => false, :strategy => 0}
       options.optipng_options   = {:level => 6, :interlace => false}
       options.advpng_options    = {:level => 4}
       options.jpegoptim_options = {:strip => ['all'], :max_quality => 100}
       options.jpegtran_options  = {:copy_chunks => false, :progressive => true, :jpegrescan => true}
       options.gifsicle_options  = {:interlace => false}
-      options.svgo_options      = {}
+      #options.svgo_options      = {}
     end
 
   # Use relative URLs
