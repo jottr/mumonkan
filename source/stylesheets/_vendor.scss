@@ -4,15 +4,17 @@
 
 /*
  *= require pure/base-min
- */
+ *= require font-awesome/scss/font-awesome
 
-  *= require font-awesome
+*/
+
+
 
 // if you want to replace the default values first copy the
 // vendor/assets/bower/typeplate/scss/_vars-typeplate.scss somewhere else and then
 // import it **before** typeplate scss stylesheet
 // @import modules/vars-typeplate
-@import typeplate/scss/typeplate
+@import "typeplate/scss/typeplate";
 
 // sass mixin library
 //@import bourbon
@@ -20,6 +22,6 @@
 // a lightweight semantic grid framework for Sass and Bourbon.
 // @import neat
 
-// fontawesome icon library
-$fa-font-path: "font-awesome/fonts"
-@import font-awesome/scss/font-awesome.scss
+
+$fa-font-path: '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/fonts';
+@import "font-awesome/scss/font-awesome";
