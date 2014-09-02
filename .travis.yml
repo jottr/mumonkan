@@ -7,3 +7,7 @@ before_install:
 script:
   - bower install
   - bundle exec middleman build --verbose
+notifications:
+  email:
+    on_success: change
+    on_failure: change
