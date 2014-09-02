@@ -1,4 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/jottr/mumonkan.png?label=ready&title=Ready)](http://waffle.io/jottr/mumonkan) [![Dependency Status](https://gemnasium.com/jottr/mumonkan.svg)](https://gemnasium.com/jottr/mumonkan)
+[![Build Status](https://travis-ci.org/jottr/mumonkan.svg?branch=develop)] (https://travis-ci.org/jottr/mumonkan) [![Stories in Ready](https://badge.waffle.io/jottr/mumonkan.png?label=ready&title=Ready)](http://waffle.io/jottr/mumonkan) [![Dependency Status](https://gemnasium.com/jottr/mumonkan.svg)](https://gemnasium.com/jottr/mumonkan)
 
 # mumonkan
 
