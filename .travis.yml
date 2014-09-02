@@ -2,6 +2,8 @@ language: ruby
 rvm:
   - 2.0.0-p247
 before_install:
+  - npm install bower
   - gem update bundler
 script:
-  - bundle exec middleman build
+  - bower install
+  - bundle exec middleman build --verbose
