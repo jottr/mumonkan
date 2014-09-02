@@ -8,10 +8,15 @@ namespace :middleman do
     sh "bower install"
   end
 
-  desc "Update gem bundles and bower packages"
+  desc "Clean gem bundles and bower packages"
   task :update do |t, args|
     sh "bundle clean"
     sh "bower prune"
-    sh "bower install"
+  end
+
+  desc "Update gem bundles and bower packages"
+  task :update do |t, args|
+    sh "bundle update"
+    sh "bower update"
   end
 end
